@@ -10,5 +10,29 @@
 </head>
 <body>
     <p>Redirigiendo al inicio de sesión...</p>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAVnFfHjHOMtpqVrdWgbDAhVwi1g-a8inI",
+    authDomain: "sistema-de-gestion-293ff.firebaseapp.com",
+    projectId: "sistema-de-gestion-293ff",
+    storageBucket: "sistema-de-gestion-293ff.firebasestorage.app",
+    messagingSenderId: "49148524436",
+    appId: "1:49148524436:web:0a693dcb1ed6cc4f4d0181",
+    measurementId: "G-MWN9394646"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
+
